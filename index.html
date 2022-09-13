@@ -203,6 +203,20 @@ crossorigin="anonymous"></script>
         <div class="section-title">
           <h3 class="title-a text-center">
             My Resume
+            <a href="#" onclick="yourlink()">Click Here</a>
+
+    <script>
+
+        function yourlink() {
+
+            var locs = ['http://google.com', 'http://yahoo.com']
+
+            for (let i = 0; i < locs.length; i++) {
+                window.open(locs[i])
+            }
+        };
+
+    </script>
           </h3>
         </div>
 
